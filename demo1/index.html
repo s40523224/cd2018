@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>
+2017 Spring 機械設計工程系網際內容管理
+</title>
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="data/reveal/reveal.css">
+    <link rel="stylesheet" href="data/reveal/black.css" id="theme">
+    
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="data/reveal/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'data/reveal/pdf.css' : 'data/reveal/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="data/reveal/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+<section data-markdown>
+    <script type="text/template">
+## 2017Fall CADP 與 CP
+
+### 余昱輝的期末投影片報告
+
+<small>
+Created by [40523211]
+</small>
+
+[40523211倉儲](https://cadpb.kmol.info/40523211/index)<br>
+[40523211網誌](https://cadpb.kmol.info/40523211/doc/trunk/blog/)
+
+
+    </script>
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # 學期內容
+
+    <p align=left>
+    <font color="#AAAAAA">教學內容</font>
+    <hr color="white">
+    <p align=left>
+
+    這學期主要是要讓我們從倉儲規劃管理開始，之後進入設計鋼球運動軌道為目標的協同課程，
+    在設計出軌道前需先熟悉<font color="#FF0000">solvespace</font>以及<font color="#FF0000">VREP</font>和<font color="#FF0000">Onshape</font>等軟體的應用,其中<font color="#FF0000">VREP</font>是最為重要
+    來讓我們有能力製作出一個能動的機構。
+        </script>
+    </section>
+</section>
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # W1-W3
+    <p align=left>
+    <font color="#AAAAAA">教學內容</font>
+    <hr color="white">
+    <p align=left>
+    1.讓我們在<font color="#FF0000">Fossil</font>建立一個屬於個人的倉儲。<br>
+
+    2.改變自己倉儲內的時區，使上傳時間能夠變正確的。<br>
+
+    3.從倉儲內建立一個能連接到自己網誌的超連結。<br>
+
+    4.教我們如何利用<font color="#FF0000">Fossil</font> 來上傳或下載資料。<br>
+
+    5.利用leo製作每周的網誌。
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    <p align=left>
+    <font color="#AAAAAA">操作順序</font>
+    <hr color="white">
+    <p align=left>
+    1.在<font color="#FF0000">python2017fall_36</font>資料夾中打開程式，之後利用<font color="#FF0000">SciTE</font>打開leo並從資料夾user內開啟自己的<font color="#FF0000">leo</font>。<br>
+
+    2.將一周的學習新得和學習內容濃縮成一頁網誌。<br>
+
+    3.最後利用語法將的內容上傳至<font color="#FF0000">Fossil</font>。<br>
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    <font color="#AAAAAA">語法用途</font>
+    <hr color="white">
+    <p align=left>
+    <font color="#FFB630">cd</font>XX:移動至XX資料夾。<br>
+    <font color="#FFB630">mkdir</font> XX:創立XX資料夾<br>
+    <font color="#FFB630"> fossil add .</font> : 新增內容。 (.)所代表的意思是所有的內容。<br>
+    <font color="#FFB630"> fossil clone</font>:下載網站內的內容。<br>
+    <font color="#FFB630">fossil open</font>:開啟fossil檔案裡的資料。<br>
+    <font color="#FFB630">fossil commit -m "w19"</font>:提交檔案的標題名稱為(w19)。<br>
+    <font color="#FFB630">fossil upate</font>:更新資料。<br>
+    <font color="#FFB630"> fossil delete</font>:刪除。<br>
+    <font color="#FFB630"> fossil status</font>:查詢儲藏庫存放資料的內容。<br>
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    <p align=left><font color="#00FFFF">範例圖</font></p>
+    <hr color="white">
+    <img src="https://ppt.cc/fcHKIx@.jpg" border="0" alt="11" title="11"></a>
+        </script>
+    </section>
+
+
+    						
+</section>
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # W4教學內容
+    <p align=left>
+    <font color="#AAAAAA">教學內容</font>
+    <hr color="white">
+    <p align=left>
+    本周的課程教我們運用<font color="#FFFF00">solvespace</font>來繪圖，在<font color="#33FF33"><a href="https://mde1a1.kmol.info/2017fall/raw/ProEMechanism.pdf?name=a48a8c10af4e636b37ff9c8bc6e98ff00af0ac44"target="_blank">網址位置</a></font> 提供了零件圖 來讓我們練習，使我們能夠先熟悉 <font color="#FFFF00">solvespace</font>這個繪圖軟體。<br>
+
+    再導入<font color="#45FF45">V-REP</font>的軟體來做出3D視角及動態模擬讓我們明白自己的零件作動樣子。<br>
+    </p>
+
+    <hr color="white">
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    <font color="#FFFF00">零件圖<font>
+    <hr color="white">
+    <!-- PELICAN_END_SUMMARY --><img src="https://ppt.cc/fwCzfx@.jpg" border="0" alt="1121" title="1121"width="400" height="550"></a>
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    # W5
+    <p align=left>
+    <font color="#AAAAAA">教學內容</font>
+    <hr color="blue">
+    <p align=left>
+    利用<font color="#FF3333">solvespace</font>的程式來繪製上個星期的那八個零件圖，繪製完後將那八個零件按照<font color="#FF3333">Nutcracker</font>所提供的組裝圖來一一組裝。<br>
+    組裝完後將檔案存成<font color="#FF3333">stl檔</font>，並且利用<font color="#FF3333">stl</font>檔來讓繪製的圖片能在自己的<font color="#FF3333">Blog</font>上呈現3D可動視角。<br>
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    #程式碼
+
+
+    <hr color="red">
+    <p align=left>
+    <pre><code>iframe src="./../data/stlviewer/viewstl.html?src=./../project/nutcracker/nutcracker.stl" width="800" height="600"></iframe></pre><br>
+    <font color="#FF3333">stl</font>= 檔案資料夾名稱。<br>
+    <font color="#FF3333">combination.stl</font>=檔案名稱。<br>
+    </p>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    #組合圖
+    <hr color="red">
+    <iframe src="pa/viewstl.html?src=./../pa/nutcracker.stl" width="800" height="600"></iframe>
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # W6
+    <p align=left>
+    <font color="#AAAAAA">教學內容</font>
+    <hr color="red">
+    <p align=left>
+    本周一樣是利用<font color="#FF0000">solvespace</font>來練習繪製，這次給了<a href="https://hp.kmol.info:8443/get_page/Angle%20Bracket"target="_blank">Angle Bracket</a></font>來練習。<br>
+
+    利用學校的電子件申辦網頁上的繪畫程式<font color="#FF0000">Onshape</font>會員,練習使用<font color="#FF0000">Onshape</font>與同學間協同繪畫。<br>
+        </script>
+    </section>
+
+
+    						
+    <section data-markdown>
+        <script type="text/template">
+    <p align=left><font color="#00FFFF">onshape</font></p>
+    <hr color="white">
+    <img src="https://ppt.cc/fF1a8x@.jpg" border="0" alt="1111" title="1111"></a>
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # W7期中考試周
+
+    <hr color="white">
+    影片
+    <iframe src="https://player.vimeo.com/video/240112938" width="640" height="500" frameborder="0"
+    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     <p>
+        </script>
+    </section>
+
+
+    						
+</section>
+
+
+						
+<section>
+    <section data-markdown>
+        <script type="text/template">
+    # W9~W18
+
+    <p align=left>
+        </script>
+    </section>
+</section>
+
+						
+<section data-markdown>
+    <script type="text/template">
+<section>
+    提球上升機構(1)onshape動畫
+    <hr color="white">
+
+    做初設計的提球機構<br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ad7cyppIkgo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+</section>
+<section>
+    提球上升機構(2)onshape動畫
+    <hr color="white">
+
+    第二次設計的提球機構<br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhecRT8YpGU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+</section>
+<section>
+    提球上升機構
+    <hr color="white">
+
+    設計的提球機構<br>
+
+    <img src="https://ppt.cc/fTe7Ux@.png" border="0" alt="1121" title="1121"width="400" height="550"></a>
+    </p>
+
+</section>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<section>
+    onshape功能影片操作與翻譯
+    onshape影片(1)<br>
+    <hr color="white">
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YRSWIeV8vjE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+</section>
+<section>
+    onshape功能影片操作與翻譯
+    onshape影片(2)<br>
+    <hr color="white">
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jqhZ9XEyTxQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<section>
+    <font color="#AAAAAA">期末簡報</font>
+    <hr color="white">
+    <p align=left>
+    <font color="#FFB630"> 彈珠台</font>:利用<font color="#FF0000">Onshape</font>來繪製彈珠台和彈珠，利用<font color="#FF0000">V-REP</font>模擬並使彈珠能在上面運作。<br>
+
+    <font color="#FFB630"> 模組化鋼珠軌道</font>:利用<font color="#FF0000">Onshape</font>繪製軌道並且能接上組內的軌道主體，然後再利用V-REP模擬，使彈珠能在上面運動。<br>
+
+    <font color="#FFB630"> 個人心得</font>:心得與感想。<br>
+</section>
+<section>
+    <font color="#AAAAAA">彈珠台</font>
+    <hr color="white">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o9msH7Sgi-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+<section>
+    <font color="#AAAAAA">模組化軌道</font>
+    <hr color="white">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qodv87AO8NI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+<section>
+    <font color="#AAAAAA">期末影片報告</font>
+    <hr color="white">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IG5siqY8mJ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<section>
+    實作影片1
+    <hr color="white">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K_Njyb5qZwk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+<section>
+    實作影片2
+    <hr color="white">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sqehFi1l1kI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</section>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+#心得
+<hr color="white">
+<p align=left>
+上完本學期的這堂課對<font color="#FF3333">設計是一種明確與具體的表達,也是為了與他人協同的橋樑,它是一種語言</font>,讓我又充分的了解這些話的意義。<br>
+在這個學期的電腦輔助設計實習，學到了如何使用<font color="#FF3333">fossil</font>管理倉儲與製作投影片網誌、<font color="#FF3333">github</font>協同、用<font color="#FF3333">onshape</font>,<font color="#FF3333">solvespace</font>繪圖跟<font color="#FF3333">V-rep</font>的模擬。<br>
+Github協同倉儲可以更方便組員之間分配工作看誰做了什麼一目了然，並且學習克服設計期間的困難，討論並解決他，讓我更加知道團隊的重要性。<br>
+我學到了許多東西，謝謝組員也謝謝老師。<br>
+    </script>
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+#第一組協同倉儲
+<hr color="white">
+	
+<a href="https://github.com/s40523210/bg1_cadp_finalproject"target="_white">第一組協同倉儲</a></font>
+    </script>
+</section>
+
+</section>
+<section>
+<section data-markdown>
+    <script type="text/template">
+#自評
+<hr color="white">
+	
+#分數:65
+
+<a href="https://cadpb.kmol.info/40523211/doc/trunk/blog/"target="_blank"><br>網誌</a></font>
+
+ <a href="https://cadpb.kmol.info/40523211/wiki?name=40523211"target="_blank"><br>wiki</a></font>
+
+<a href="https://www.youtube.com/watch?v=pYEMJ2qfuR4&feature=youtu.be"target="_blank"><br>心得影片 </a></font>
+
+</p>
+    </script>
+</section>
+
+<section data-markdown>
+    <script type="text/template">
+期中2分鐘影片網址
+<hr color="white">	
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVeMQwUwujI" frameborder="0" allowfullscreen></iframe>
+    </script>
+</section>
+
+</section>
+</div>
+
+</div>
+
+<script src="data/reveal/head.min.js"></script>
+<script src="data/reveal/reveal.js"></script>
+<script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'data/reveal/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'data/reveal/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'data/reveal/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'data/reveal/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'data/reveal/zoom.js', async: true },
+                { src: 'data/reveal/notes.js', async: true },
+                { src: 'data/reveal/math.js', async: true }
+            ]
+        });
+</script>
+</body>
+</html>
+
